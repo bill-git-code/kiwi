@@ -1,7 +1,7 @@
 # K-means 自動選擇群數的方法: 手肘法．輪廓係數法｜clustering ｜半熟奇異果 Kiwi Tech
 kmeans; elbow method; Silhouette Coefficient; 集群分析, 分群; algorithm; machine learning; AI
 
-![KiwiTech_title_長條03](https://hackmd.io/_uploads/HJcbEOrBa.png)
+![KiwiTech_title_長條03](https://github.com/bill-git-code/kiwi/assets/63846041/2618c4f7-a5d9-4edf-90ef-3ee188860471)
 
 
 ---
@@ -22,7 +22,7 @@ K-means 透過集群演算法將多維資料進行分群，但是K-means 不會�
 手肘法是以誤差平方和（sum of the squared errors, SSE）作為指標，計算每一群中的每一個資料點到群中心的距離，找出 SSE 相對平緩的資料點作為拐點（Inflection point），並以此拐點選為群數。
 SSE 計算方式如下：
 
-![誤差平方和（sum of the squared errors, SSE](https://hackmd.io/_uploads/H1NtN_HST.png)
+![誤差平方和（sum of the squared errors, SSE](https://github.com/bill-git-code/kiwi/assets/63846041/ab6f19a8-207d-461d-82ef-cfe40b604021)
 
 > 其中，
 
@@ -38,7 +38,7 @@ SSE 代表集群的好壞，也就是所有資料的誤差
 輪廓係數法是判斷集群分析好壞的一種方法，目的是找出同一群的資料點內最近(凝聚度越小的值)，不同群越分散(分離度越高的值)，用來滿足集群主要的目標。
 Silhouette 計算方式如下：
 
-![Silhouette](https://hackmd.io/_uploads/BkPHEdSrT.png)
+![Silhouette](https://github.com/bill-git-code/kiwi/assets/63846041/2ae3ef23-c9be-486a-ac6c-a203ae21e6a6)
 
 
 > 其中，
@@ -81,7 +81,7 @@ plt.ylabel('Feature 2')
 plt.show()
 ```
 <div style="text-align: center;">
-  <img src="https://hackmd.io/_uploads/rJ9CmOrBa.png" alt="生成資料">
+  <img src="[https://hackmd.io/_uploads/rJ9CmOrBa.png](https://github.com/bill-git-code/kiwi/assets/63846041/1f31b2e5-8361-4666-8c34-237da7ce21b2)" alt="生成資料">
 </div>
 
 
@@ -110,8 +110,9 @@ plt.show()
 - 從下圖可以發現 在n_clusters 為 4 時，出現拐點，集群的效果最好，所以可以選定4當作K。
 
 <div style="text-align: center;">
-  <img src="https://hackmd.io/_uploads/B1gDmOrBa.png" alt="手肘法">
+  <img src="[https://hackmd.io/_uploads/B1gDmOrBa.png](https://github.com/bill-git-code/kiwi/assets/63846041/b5c33ba0-bf4c-4961-b7a6-bb34eb0755e5)" alt="手肘法">
 </div>
+
 
 ### 2. 輪廓分析法
 - 通過繪製輪廓分數隨集群數增加的變化圖
@@ -135,7 +136,7 @@ plt.show()
 
 - 從下圖可以發現 在n_clusters 為 4 時，集群的效果最好，所以可以選定4當作K
 <div style="text-align: center;">
-  <img src="https://hackmd.io/_uploads/SJRPJOSST.png" alt="輪廓分析法">
+  <img src="[https://hackmd.io/_uploads/SJRPJOSST.png](https://github.com/bill-git-code/kiwi/assets/63846041/20b5f7db-fce8-49f4-9d2c-63f04414d020)" alt="輪廓分析法">
 </div>
 
 ---
@@ -145,6 +146,7 @@ sources
 2. [sklearn.metrics.silhouette_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html)
 
 ---
-![KiwiTech_title_長條03](https://hackmd.io/_uploads/H1XzEOrSa.png)
+![KiwiTech_title_長條03](https://github.com/bill-git-code/kiwi/assets/63846041/51775980-7fa3-4490-9550-d35f23741244)
+
 
 ---
