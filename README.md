@@ -3,4 +3,4 @@ This is Kiwi Blog
 
 
 # about author
-@bill-git-code
+[@bill-git-code](https://github.com/bill-git-code)
