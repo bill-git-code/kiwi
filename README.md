@@ -5,4 +5,4 @@ This is Kiwi Blog
 
 # about author
 筆記遇到的技術問題
-[@bill-git-code](https://github.com/bill-git-code)
+[@bill-git-code(kiwi-tech)](https://github.com/bill-git-code/kiwi-tech)
