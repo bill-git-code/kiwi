@@ -81,7 +81,7 @@ plt.ylabel('Feature 2')
 plt.show()
 ```
 <div style="text-align: center;">
-  <img src="[https://hackmd.io/_uploads/rJ9CmOrBa.png](https://github.com/bill-git-code/kiwi/assets/63846041/1f31b2e5-8361-4666-8c34-237da7ce21b2)" alt="生成資料">
+  <img src="https://github.com/bill-git-code/kiwi/assets/63846041/1f31b2e5-8361-4666-8c34-237da7ce21b2" alt="生成資料">
 </div>
 
 
@@ -110,7 +110,7 @@ plt.show()
 - 從下圖可以發現 在n_clusters 為 4 時，出現拐點，集群的效果最好，所以可以選定4當作K。
 
 <div style="text-align: center;">
-  <img src="[https://hackmd.io/_uploads/B1gDmOrBa.png](https://github.com/bill-git-code/kiwi/assets/63846041/b5c33ba0-bf4c-4961-b7a6-bb34eb0755e5)" alt="手肘法">
+  <img src="https://github.com/bill-git-code/kiwi/assets/63846041/b5c33ba0-bf4c-4961-b7a6-bb34eb0755e5" alt="手肘法">
 </div>
 
 
@@ -136,7 +136,7 @@ plt.show()
 
 - 從下圖可以發現 在n_clusters 為 4 時，集群的效果最好，所以可以選定4當作K
 <div style="text-align: center;">
-  <img src="[https://hackmd.io/_uploads/SJRPJOSST.png](https://github.com/bill-git-code/kiwi/assets/63846041/20b5f7db-fce8-49f4-9d2c-63f04414d020)" alt="輪廓分析法">
+  <img src="https://github.com/bill-git-code/kiwi/assets/63846041/20b5f7db-fce8-49f4-9d2c-63f04414d020" alt="輪廓分析法">
 </div>
 
 ---
